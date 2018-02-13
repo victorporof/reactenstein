@@ -1,0 +1,21 @@
+body {
+    font: 16px sans-serif;
+    line-height: 1.35;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 2px 0;
+}
+
+.counter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+p {
+    margin: 0;
+}

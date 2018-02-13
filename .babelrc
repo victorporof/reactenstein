@@ -1,0 +1,21 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "node": "current",
+                    "browsers": [
+                        "unreleased Chrome versions",
+                        "unreleased Firefox versions"
+                    ]
+                }
+            }
+        ],
+        "react"
+    ],
+    "plugins": [
+        "transform-object-rest-spread",
+        "transform-class-properties"
+    ]
+}

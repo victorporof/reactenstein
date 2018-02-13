@@ -1,0 +1,6 @@
+[submodule "rsx-embedding"]
+	path = rsx-embedding
+	url = git@github.com:victorporof/rsx-embedding.git
+[submodule "rsx-renderers"]
+	path = rsx-renderers
+	url = git@github.com:victorporof/rsx-renderers.git

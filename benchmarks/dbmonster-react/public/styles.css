@@ -1,0 +1,70 @@
+body {
+    color: #333;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+label {
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+input[type=range] {
+    display: block;
+    width: 100%;
+}
+
+#dbmon * {
+    display: flex;
+    box-sizing: border-box;
+}
+
+table {
+    flex: 1;
+}
+
+tbody {
+    flex-direction: column;
+    flex: 1;
+}
+
+tr {
+    border-top: 1px solid #ddd;
+}
+
+tr:nth-child(odd) {
+    background:#f9f9f9;
+}
+
+td {
+    padding: 8px;
+    flex: 1;
+}
+
+.dbname {
+    font-size: 14px;
+}
+
+.Query {
+    font-size: 14px;
+}
+
+.label {
+    border-radius: .25em;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 6px 3px;
+    width: 20px;
+}
+
+.label-success {
+    background-color: #5cb85c;
+}
+
+.label-warning {
+    background-color: #f0ad4e;
+}
